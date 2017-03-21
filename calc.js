@@ -32,3 +32,9 @@ function calc() {
     function btninput(val) {
         document.getElementById('expression').value += val;
     }
+
+    let sqrt = (n) => Math.sqrt(n);
+
+    let pi = Math.pi
+
+    let sum = (...nums) => [...nums].reduce((acc, val) => (acc + val));

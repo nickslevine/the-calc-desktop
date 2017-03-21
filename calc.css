@@ -102,13 +102,14 @@
         width: 130px;
         padding: 30px;
         overflow: scroll;
+        -webkit-app-region: no-drag;
     }
     .answertext{
         text-align: right;
     }
     ::-webkit-scrollbar {
-    width: 2px;
-    height: 7px;
+    width: 1px;
+    height: 1px;
     }
     ::-webkit-scrollbar-track {
     border: 0px solid black;
@@ -117,4 +118,5 @@
     ::-webkit-scrollbar-thumb {
     background: black;  
     border-radius: 7px;
+    /*border: 10px dashed;*/
     }
